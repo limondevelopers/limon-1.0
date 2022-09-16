@@ -4,11 +4,11 @@ import BMW from'../img/vector-1@2x.svg'
 
 const CarBrand = function () {
 
-    const[brand, setBrand] = React.useState(0);
+    const[brand, setBrand] = React.useState(false);
     
     return (
         <div class="auto">
-            <button onClick={() => setBrand(2)} className={`${brand ? `name_of_car_radio_btn_show` : `name_of_car_radio_btn_hide`}`}>
+            <button onClick={() => setBrand(true)} className={`${brand ? `name_of_car_radio_btn_show` : `name_of_car_radio_btn_hide`}`}>
                 <img class="carsvg" src={BMW}/>
             </button>     
         </div>

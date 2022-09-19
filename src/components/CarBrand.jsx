@@ -18,66 +18,69 @@ const CarBrand = function () {
     return (
         <div class="auto">
             
-            <button onClick={() => setBrand('BMW')} className={brand === BMW && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
+            <button onClick={() => setBrand('BMW')} className={brand === 'BMW' && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
                 <img class="carsvg" src={BMW} />
              </button> 
 
             <div class="vertical_line"></div>
 
-            <button onClick={() => setBrand('MB')} className={brand === MB && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
+            <button onClick={() => setBrand('MB')} className={brand === 'MB' && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
                 <img class="carsvg" src={MB} />
             </button> 
 
             <div class="vertical_line"></div>
 
-            <button onClick={() => setBrand('WV')} className={brand === WV && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
+            <button onClick={() => setBrand('WV')} className={brand === 'WV' && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
                 <img class="carsvg" src={WV} />
             </button> 
 
             <div class="vertical_line"></div>
 
-            <button onClick={() => setBrand('Skoda')} className={brand === Skoda && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
+            <button onClick={() => setBrand('Skoda')} className={brand === 'Skoda' && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
                 <img class="carsvg" src={Skoda} />
             </button> 
 
             <div class="vertical_line"></div>
 
-            <button onClick={() => setBrand('Reno')} className={brand === Reno && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
+            <button onClick={() => setBrand('Reno')} className={brand === 'Reno' && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
                 <img class="carsvg" src={Reno} />
             </button> 
             <div class="vertical_line"></div>
 
-            <button onClick={() => setBrand('Toyota')} className={brand === Toyota && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
+            <button onClick={() => setBrand('Toyota')} className={brand === 'Toyota' && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
                 <img class="carsvg" src={Toyota} />
             </button>
 
             <div class="vertical_line"></div>
 
-            <button onClick={() => setBrand('Lexus')} className={brand === Lexus && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
+            <button onClick={() => setBrand('Lexus')} className={brand === 'Lexus' && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
                 <img class="carsvg" src={Lexus} />
             </button>
 
             <div class="vertical_line"></div>
 
-            <button onClick={() => setBrand('Mazda')} className={brand === Mazda && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
+            <button onClick={() => setBrand('Mazda')} className={brand === 'Mazda' && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
                 <img class="carsvg" src={Mazda} />
             </button>
 
             <div class="vertical_line"></div>
 
-            <button onClick={() => setBrand('LandRover')} className={brand === LandRover && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
+            <button onClick={() => setBrand('LandRover')} className={brand === 'LandRover' && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
                 <img class="carsvg" src={LandRover} />
             </button> 
 
             <div class="vertical_line"></div>
 
-            <button onClick={() => setBrand('Kia')} className={brand === Kia && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
+            <button onClick={() => setBrand('Kia')} className={brand === 'Kia' && `name_of_car_radio_btn_show` || `name_of_car_radio_btn_hide`}>
                 <img class="carsvg" src={Kia} />
             </button> 
 
-            <div class="rectangle_price">
-                <p class="summa">{brand}</p>
-            </div>
+            <div class="vertical_line"></div>
+
+            <a class="see_moretxt" onClick={() => setBrand('0')}>see<br />more</a>
+
+            
+
         </div>
     )
 }

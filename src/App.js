@@ -3,12 +3,10 @@ import CarBrand from "./components/CarBrand";
 import Counter from "./components/Counter";
 import './style.css'
 
-
-
 function App() {
 
   return (
-    <div className="App">
+    <div className="main">
       <CarBrand/>
       <Counter/>
     </div>
